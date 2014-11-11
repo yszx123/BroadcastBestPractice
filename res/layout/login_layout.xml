@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" 
-    android:stretchColumns="1">
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
 
     <TableRow>
 
@@ -27,6 +27,17 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:labelFor="@+id/password" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/remember_pass"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/rememberPwd" />
     </TableRow>
 
     <TableRow>
